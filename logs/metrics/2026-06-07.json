@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2026-06-07T20:22:47.659418",
+    "cpu": {
+      "percent": 0.0
+    },
+    "ram": {
+      "percent": 11.2,
+      "total_gb": 3.94
+    },
+    "disk": {
+      "percent_used": 0.2,
+      "free_gb": 1023.94
+    },
+    "services": [
+      "python3"
+    ]
+  }
+]

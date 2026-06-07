@@ -1,0 +1,18 @@
+thresholds:
+  cpu_percent: 80
+  disk_percent_free: 15
+  ram_percent: 90
+
+backup:
+  sources:
+    - /home/main/documents
+    - /etc
+  destination: /home/main/backups
+  keep_last: 7
+
+logging:
+  metrics_dir: logs/metrics
+  alerts_log: logs/alerts.log
+
+monitoring:
+  interval_minutes: 5
