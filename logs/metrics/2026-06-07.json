@@ -15,5 +15,90 @@
     "services": [
       "python3"
     ]
+  },
+  {
+    "timestamp": "2026-06-07T21:17:12.276088",
+    "cpu": {
+      "percent": 0.0
+    },
+    "ram": {
+      "percent": 11.6,
+      "total_gb": 3.94
+    },
+    "disk": {
+      "percent_used": 0.2,
+      "free_gb": 1023.91
+    },
+    "services": [
+      "python3"
+    ]
+  },
+  {
+    "timestamp": "2026-06-07T21:17:15.406921",
+    "cpu": {
+      "percent": 0.0
+    },
+    "ram": {
+      "percent": 11.6,
+      "total_gb": 3.94
+    },
+    "disk": {
+      "percent_used": 0.2,
+      "free_gb": 1023.91
+    },
+    "services": [
+      "python3"
+    ]
+  },
+  {
+    "timestamp": "2026-06-07T21:17:18.512175",
+    "cpu": {
+      "percent": 0.0
+    },
+    "ram": {
+      "percent": 11.6,
+      "total_gb": 3.94
+    },
+    "disk": {
+      "percent_used": 0.2,
+      "free_gb": 1023.91
+    },
+    "services": [
+      "python3"
+    ]
+  },
+  {
+    "timestamp": "2026-06-07T21:17:21.615767",
+    "cpu": {
+      "percent": 0.1
+    },
+    "ram": {
+      "percent": 11.6,
+      "total_gb": 3.94
+    },
+    "disk": {
+      "percent_used": 0.2,
+      "free_gb": 1023.91
+    },
+    "services": [
+      "python3"
+    ]
+  },
+  {
+    "timestamp": "2026-06-07T21:17:24.721108",
+    "cpu": {
+      "percent": 0.0
+    },
+    "ram": {
+      "percent": 11.6,
+      "total_gb": 3.94
+    },
+    "disk": {
+      "percent_used": 0.2,
+      "free_gb": 1023.91
+    },
+    "services": [
+      "python3"
+    ]
   }
 ]
