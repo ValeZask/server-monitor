@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2026-06-07T20:48:37.677314",
+    "archive": "",
+    "size_mb": 0,
+    "sources": [
+      "/home/main/documents",
+      "/etc"
+    ],
+    "deleted_old_backups": 0,
+    "status": "error: [Errno 13] Permission denied: '/etc/.pwd.lock'"
+  },
+  {
+    "timestamp": "2026-06-07T20:50:44.083625",
+    "archive": "backup_20260607_205044.tar.gz",
+    "size_mb": 0.0,
+    "sources": [
+      "/home/main/documents",
+      "/home/main/server-monitor/config"
+    ],
+    "deleted_old_backups": 0,
+    "status": "success"
+  }
+]

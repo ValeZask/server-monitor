@@ -1,0 +1,10 @@
+[Sun Jun  7 08:48:37 PM +06 2026] Запуск бэкапа...
+  ! не найден (пропущен): /home/main/documents
+Ошибка: [Errno 13] Permission denied: '/etc/.pwd.lock'
+[Sun Jun  7 08:48:37 PM +06 2026] Бэкап завершён
+[Sun Jun  7 08:50:44 PM +06 2026] Запуск бэкапа...
+  + добавлен: /home/main/documents
+  + добавлен: /home/main/server-monitor/config
+Архив создан: /home/main/backups/backup_20260607_205044.tar.gz (0.0 MB)
+Бэкап завершён успешно
+[Sun Jun  7 08:50:44 PM +06 2026] Бэкап завершён
