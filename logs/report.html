@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Server Monitor Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #1a1a2e; color: #eee; padding: 20px; }
+        h1 { color: #00d4ff; }
+        .summary { display: flex; gap: 20px; margin: 20px 0; }
+        .card { background: #16213e; padding: 20px; border-radius: 8px; min-width: 150px; text-align: center; }
+        .card h3 { margin: 0; color: #00d4ff; font-size: 2em; }
+        .card p { margin: 5px 0 0; color: #aaa; }
+        table { width: 100%; border-collapse: collapse; background: #16213e; border-radius: 8px; overflow: hidden; }
+        th { background: #0f3460; padding: 12px; text-align: left; }
+        td { padding: 10px 12px; border-bottom: 1px solid #0f3460; }
+        tr:last-child td { border-bottom: none; }
+        .footer { margin-top: 20px; color: #666; font-size: 0.85em; }
+    </style>
+</head>
+<body>
+    <h1>🖥️ Server Monitor — Отчёт за 24 часа</h1>
+    <p>Сгенерирован: 2026-06-07 21:11:45</p>
+
+    <div class="summary">
+        <div class="card"><h3>1</h3><p>Измерений</p></div>
+        <div class="card"><h3>0.0%</h3><p>Средний CPU</p></div>
+        <div class="card"><h3>11.2%</h3><p>Средний RAM</p></div>
+    </div>
+
+    <table>
+        <thead><tr><th>Время</th><th>CPU</th><th>RAM</th><th>Диск свободно</th><th>Свободно GB</th></tr></thead>
+        <tbody>
+        <tr>
+            <td>2026-06-07T20:22:47.659418</td>
+            <td style="background:#4dff88">0.0%</td>
+            <td style="background:#4dff88">11.2%</td>
+            <td style="background:#4dff88">99.8%</td>
+            <td>1023.94 GB</td>
+        </tr></tbody>
+    </table>
+    <div class="footer">🟢 норма &nbsp; 🔴 превышение порога</div>
+</body>
+</html>

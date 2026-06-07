@@ -1,0 +1,11 @@
+# Server Monitor — пример настройки cron
+# Установка: crontab -e  (вставить строки ниже)
+
+# Мониторинг каждые 5 минут
+*/5 * * * * /home/main/server-monitor/scripts/monitor.sh >> /home/main/server-monitor/logs/cron.log 2>&1
+
+# Бэкап каждую ночь в 02:00
+0 2 * * * /home/main/server-monitor/scripts/backup.sh >> /home/main/server-monitor/logs/cron.log 2>&1
+
+# HTML отчёт каждое утро в 07:00
+0 7 * * * python3 /home/main/server-monitor/python/report_generator.py >> /home/main/server-monitor/logs/cron.log 2>&1
